@@ -8,3 +8,5 @@ Import Info:
 
 WIP:
 - currently, collecting data from every table is a WIP
+
+_© 2024 Nathan Ens_
