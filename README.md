@@ -4,7 +4,7 @@ https://www.calgary.ca/communities/profiles.html
 ./community-names.txt is a copy and paste of the list of communities on the above page
 
 Import Info:
-- _multiprocessing_ and _ThreadPoolExecuter_ from _concurent.futures_ are both unnecessary for workign code but act fetch and compile multiple PDFs in parallel.
+- _multiprocessing_ and _ThreadPoolExecuter_ from _concurent.futures_ are both unnecessary for working code but act fetch and compile multiple PDFs in parallel.
 
 WIP:
 - collecting data from every PDF table
