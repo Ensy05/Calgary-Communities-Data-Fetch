@@ -105,9 +105,6 @@ def extract_immigration_data(text):
         immigrants = non_immigrants = 'N/A'  # Handle missing data
     return [immigrants, non_immigrants]
 
-# def extract_population
-
-
 def finalize_data_concurrent(clear_pdfs=False, pdf_batch_logs=True, csv_creation_logs=True):
     start_time = time.time()  # Start the compilation timer
 
@@ -188,3 +185,5 @@ def main(logs=True):
             break
 
 main(logs=True)
+
+#ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC9mtCenNRvvKcDAbQ/zMeEdrhCzs1lYq+0oIsBUk/NlCUDrr7/T7ZAqxBxlkYB0l4HorndJph9VpyjwEQgoeZfNEa6n+Y47uAze4V+gaM0esIXllNxSLLr9tDoGnfihdJ3EI8ur3nV/97gq0p0YUJT5dBVAnkaJAsnPGXSKsa5tM5nGFGva3FXzOKXXGNaL4IC+/XMVphjVurOWln5em2sdA4ISP8Ox9cQgrw+8t3JBUd+GmHeFuVOqorMgYKYNMaoYSoEd54orTgpkZkh8sh3tq54iDWAhhAhu5YFb1Oc4ryUoIIC3lF7OPbo47VTxj+YHSJJU95b2AfMy8U/jfTiMdttf63BXThQLlCwL2/zqQjqetbY5XphfxWsq5E5VrKilKorfRIAdvfmfufvy4yWqHdwvCI0753jZo8OmQ6qv9N1U3LbWTCeXrPwxAggn0bmyAiz7xUP530ytpvWKCaq4zL/EU6RFGSFRd9UOLJ5vA4Hf04Dr9zGizT8nq3vD3/A5mmb5P+5ONbB593cCEEln4L4T+UgrvdDejiCxGXJvx9Q2Qm4mjlrenW+xiVOZhYWywVutyxhKGxtiwGoD74c3JGLQOZif0jjcdjxAXbpKw7s8vGojDhjqXs4KXhAODXSADb5ErIg5C/K9X+dMPVuaaz/47rPW5h5ajgU9r1TyQ== nathan.ens@gmail.com
